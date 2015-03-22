@@ -1,0 +1,66 @@
+/* line 7, /Users/Katie/Desktop/Github/mitosis-meiosis-project/css/main.scss */
+body {
+  background-color: #66e35f; }
+
+/* line 11, /Users/Katie/Desktop/Github/mitosis-meiosis-project/css/main.scss */
+#header {
+  background-color: #66e35f; }
+
+/* line 15, /Users/Katie/Desktop/Github/mitosis-meiosis-project/css/main.scss */
+#mitosis {
+  background-color: #178A8A;
+  padding: 2em; }
+
+/* line 20, /Users/Katie/Desktop/Github/mitosis-meiosis-project/css/main.scss */
+#meiosis {
+  background-color: #17A697;
+  padding: 2em; }
+
+/* line 25, /Users/Katie/Desktop/Github/mitosis-meiosis-project/css/main.scss */
+table {
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* line 31, /Users/Katie/Desktop/Github/mitosis-meiosis-project/css/main.scss */
+td {
+  border: 1px solid black;
+  padding-right: 1em; }
+
+/* line 36, /Users/Katie/Desktop/Github/mitosis-meiosis-project/css/main.scss */
+tr:nth-child(1) {
+  text-align: center; }
+
+/* line 40, /Users/Katie/Desktop/Github/mitosis-meiosis-project/css/main.scss */
+h1, h2, h3, h4, h5 {
+  text-align: center; }
+
+/* line 44, /Users/Katie/Desktop/Github/mitosis-meiosis-project/css/main.scss */
+.baseImg {
+  margin-bottom: 1em; }
+
+/* line 48, /Users/Katie/Desktop/Github/mitosis-meiosis-project/css/main.scss */
+.click {
+  margin-bottom: 2em; }
+
+/* line 52, /Users/Katie/Desktop/Github/mitosis-meiosis-project/css/main.scss */
+div > ol {
+  margin-bottom: 2em; }
+
+/* line 56, /Users/Katie/Desktop/Github/mitosis-meiosis-project/css/main.scss */
+div > ul {
+  margin-bottom: 2em; }
+
+/* line 60, /Users/Katie/Desktop/Github/mitosis-meiosis-project/css/main.scss */
+.animg {
+  margin-bottom: 1em; }
+
+/* line 64, /Users/Katie/Desktop/Github/mitosis-meiosis-project/css/main.scss */
+#arrow {
+  margin-bottom: 1em; }
+
+/* line 68, /Users/Katie/Desktop/Github/mitosis-meiosis-project/css/main.scss */
+.mitImg {
+  margin-bottom: 1em; }
+
+/*# sourceMappingURL=main.css.map */

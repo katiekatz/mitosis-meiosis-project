@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Mitosis &amp; Meiosis</title>
+        <link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap.css">
+        <link type="text/css" rel="stylesheet" href="css/main.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                
+                $('#mitReal').mouseenter(
+                    function(){
+                        
+                        $(this).attr('src', 'images/mitAnimation/mitosis.gif');
+                        
+                    });
+                $('#mitReal').mouseleave(function(){
+                            
+                        $(this).attr('src', 'images/mitAnimation/mitosisStill.png');
+                            
+                    }
+                );
+                
+                $('#meiProI').mouseenter(
+                    function(){
+                        
+                        $(this).attr('src', 'images/meiAnimation/pro/proStill1_anim.gif');
+                        
+                    });
+                $('#meiProI').mouseleave(function(){
+                            
+                        $(this).attr('src', 'images/meiAnimation/pro/proStill1.png');
+                            
+                    }
+                );
+                
+                $('#meiProII').mouseenter(
+                    function(){
+                        
+                        $(this).attr('src', 'images/meiAnimation/pro/proStill2_anim.gif');
+                        
+                    });
+                $('#meiProII').mouseleave(function(){
+                            
+                        $(this).attr('src', 'images/meiAnimation/pro/proStill2.png');
+                            
+                    }
+                );
+                
+                $('#meiMetaI').mouseenter(
+                    function(){
+                        
+                        $(this).attr('src', 'images/meiAnimation/meta/metaStill1_anim.gif');
+                        
+                    });
+                $('#meiMetaI').mouseleave(function(){
+                            
+                        $(this).attr('src', 'images/meiAnimation/meta/metaStill1.png');
+                            
+                    }
+                );
+                
+                $('#meiMetaII').mouseenter(
+                    function(){
+                        
+                        $(this).attr('src', 'images/meiAnimation/meta/metaStill2_anim.gif');
+                        
+                    });
+                $('#meiMetaII').mouseleave(function(){
+                            
+                        $(this).attr('src', 'images/meiAnimation/meta/metaStill2.png');
+                            
+                    }
+                );
+                
+                $('#meiAnaI').mouseenter(
+                    function(){
+                        
+                        $(this).attr('src', 'images/meiAnimation/ana/anaStill1_anim.gif');
+                        
+                    });
+                $('#meiAnaI').mouseleave(function(){
+                            
+                        $(this).attr('src', 'images/meiAnimation/ana/anaStill1.png');
+                            
+                    }
+                );
+                
+                $('#meiAnaII').mouseenter(
+                    function(){
+                        
+                        $(this).attr('src', 'images/meiAnimation/ana/anaStill2_anim.gif');
+                        
+                    });
+                $('#meiAnaII').mouseleave(function(){
+                            
+                        $(this).attr('src', 'images/meiAnimation/ana/anaStill2.png');
+                            
+                    }
+                );
+                
+                $('#meiTeloI').mouseenter(
+                    function(){
+                        
+                        $(this).attr('src', 'images/meiAnimation/telo/teloStill1_anim.gif');
+                        
+                    });
+                $('#meiTeloI').mouseleave(function(){
+                            
+                        $(this).attr('src', 'images/meiAnimation/telo/teloStill1.png');
+                            
+                    }
+                );
+                
+                $('#meiTeloII').mouseenter(
+                    function(){
+                        
+                        $(this).attr('src', 'images/meiAnimation/telo/teloStill2_anim.gif');
+                        
+                    });
+                $('#meiTeloII').mouseleave(function(){
+                            
+                        $(this).attr('src', 'images/meiAnimation/telo/teloStill2.png');
+                            
+                    }
+                );
+                
+            });
+        </script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div id="header" class="col-md-12">
+                <h1>Chapter 8</h1>
+                <h2>Mitosis &amp; Meiosis</h2>
+                <h4>By Katie Katz</h4>
+            </div>
+            <div id="mitosis" class="col-md-6">
+                <div class="row">
+                    <h2>Mitosis</h2>
+                    <h4>The process of cell division in which the daughter cells produced are identical to the parent cell.</h4>
+                </div>
+                <div class="row">
+                    <img src="images/mitosis.jpg" class="baseImg col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 col-md-6 col-md-offset-3">
+                </div>
+                <div class="row">
+                    <ul class="col-xs-6 col-xs-offset-4 col-sm-4 col-sm-offset-4 col-md-6 col-md-offset-4">
+                        <li>Number of daughter cells: 2</li>
+                        <li>Number of divisions: 1</li>
+                        <li>Diploid daughter cells</li>
+                        <li>Chromosome Number: 46 (consistent)</li>
+                        <li>Used when organisms undergo:
+                            <br>
+                            <ul>
+                                <li>Growth</li>
+                                <li>Development</li>
+                                <li>Repair</li>
+                                <li>Asexual Reproduction</li>
+                            </ul>
+                        </li>
+                        <li>Type of cell produced: Autosome</li>
+                        <li>Daughter Cells: Genetically Identical</li>
+                    </ul>
+                </div>
+                <table>
+                    <tr>
+                        <td>Advantages</td>
+                        <td>Disadvantages</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>No partner required</li>
+                                <li>Usually faster than meiosis</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>No genetic variation, so diseases/mutations will be passed down</li>
+                                <li>Cannot adapt or evolve</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+                <h3>The Cell Cycle</h3>
+                <div class="row">
+                    <img src="images/cellCycle.gif" class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 col-md-6 col-md-offset-3">
+                </div>
+                <h4>The cell cycle is the repeating set of events in the life of a cell. It includes interphase and cell division.</h4>
+                <ol>
+                    <li>
+                        Interphase
+                        <ul>
+                            <li>Defined as the time between cell divisions.</li>
+                            <li>
+                                Contains 3 phases:
+                                <ol>
+                                    <li>G<sub>1</sub> Phase:<br>During gap/growth phase 1, offspring cells grow to mature size.</li>
+                                    <li>S Phase:<br>During synthesis phase, the cell's DNA is copied, or synthesized.</li>
+                                    <li>G<sub>2</sub> Phase:<br>During gap/growth phase 2, the cell prepares for cell division.</li>
+                                </ol>
+                            </li>
+                            <li>Cells can exit the cell cycle during interphase, usually from the G<sub>1</sub> phase, and enter what is known as the G<sub>0</sub> phase, which is when a cell stops dividing.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Cell Division
+                        <ul>
+                            <li>
+                                Contains 2 phases:
+                                <ol>
+                                    <li>
+                                        Mitosis
+                                        <ul>
+                                            <li>Mitosis is the division of the nucleus of a cell.</li>
+                                            <li>
+                                                It is a continuous process that is divided into four phases:
+                                                <ol>
+                                                    <li>Prophase:<br>DNA coils into chromosomes. The nucleolus and nuclear membrane break down and disappear. Centrosomes appear and move toward poles. Spindle fibers appear.</li>
+                                                    <li>Metaphase:<br>Chromosomes line up at midline of the cell. Kinetochore fibers are now connected to the chromosomes, and polar fibers extend from centrosome to centrosome.</li>
+                                                    <li>Anaphase:<br>Chromotids are separated and slowly pulled to opposite poles.</li>
+                                                    <li>Telophase:<br>Opposite of prophase; Spindle fibers disassemble, nucleolus and nuclear membrane reform, and DNA uncoils into chromatin. Cytokinesis begins.</li>
+                                                </ol>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        Cytokinesis
+                                        <ul>
+                                            <li>Cytokinesis is the division of the cytoplasm of a cell.</li>
+                                            <li>Although it begins during telophase, it is considered its own phase of cell division.</li>
+                                            <li>
+                                                The process differs between animal and plant cells.
+                                                <ul>
+                                                    <li>Animal Cells:<br>The cell membrane pinches inward between the two poles. The area that pinches in is referred to as the cleavage furrow. Microfilaments in the cleavage furrow divide the cell into two offspring cells.</li>
+                                                    <li>Plant Cells:<br>Vesicles from the Golgi apparatus join at the midline of the dividing cell to form a cell plate. Eventually, a cell wall forms from this cell plate, splitting the cell into two offspring cells.</li>
+                                                </ul>
+                                            </li>
+                                            <li>In both animal and plant cells, offspring are approximately equal in size, and each contains an identical copy of the parent's chromosomes as well as half of the parent's cytoplasm and organelles.</li>
+                                        </ul>
+                                    </li>
+                                </ol>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+                <h5>Control of Cell Division</h5>
+                <ul>
+                    <li>
+                        A cell spends most of its time in interphase; only certain checkpoints can move it along in the cell cycle.
+                        <ul>
+                            <li>
+                                Checkpoint 1: Cell Growth Checkpoint<br>
+                                Proteins determine whether or not a cell has grown to a suitable size for division. If it has, the proteins end G<sub>1</sub> phase and send the cell into S phase. Some cells enter G<sub>0</sub> phase here.
+                            </li>
+                            <li>
+                                Checkpoint 2: DNA Synthesis Checkpoint<br>
+                                Enzymes check if DNA has successfully been duplicated; if so, the enzymes signal the cell to begin mitosis.
+                            </li>
+                            <li>
+                                Checkpoint 3: Mitosis Checkpoint<br>
+                                Proteins ensure that the cell has finished mitosis. If so, the proteins signal the cell to enter G<sub>1</sub> phase again.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>Sometimes, there are mutations in certain genes that control proteins.</li>
+                    <li>If the proteins that control cell checkpoints cannot function properly, the cell cycle will go unchecked.</li>
+                    <li>This disruption of the cell cycle is known as <em>cancer</em>.</li>
+                    <li>Cancer is the uncontrolled growth of cells; cancer cells do not respond to the body's control mechanisms.</li>
+                </ul>
+                <div id="mitAnimation">
+                    
+                    <h4>Mitosis</h4>
+                    
+                    <div class="row">
+                        <img src="images/mitAnimation/prophase.gif" id="mitPro" class="mitImg col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 col-md-6 col-md-offset-3">
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-xs-6 col-xs-offset-3">
+                            <img src="images/arrow.png" id="arrow" class="col-xs-2 col-xs-offset-5 col-sm-2 col-sm-offset-5 col-md-2 col-md-offset-5">
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <img src="images/mitAnimation/metaphase.gif" id="mitMeta" class="mitImg col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 col-md-6 col-md-offset-3">
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-xs-6 col-xs-offset-3">
+                            <img src="images/arrow.png" id="arrow" class="col-xs-2 col-xs-offset-5 col-sm-2 col-sm-offset-5 col-md-2 col-md-offset-5">
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <img src="images/mitAnimation/anaphase.gif" id="mitAna" class="mitImg col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 col-md-6 col-md-offset-3">
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-xs-6 col-xs-offset-3">
+                            <img src="images/arrow.png" id="arrow" class="col-xs-2 col-xs-offset-5 col-sm-2 col-sm-offset-5 col-md-2 col-md-offset-5">
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <img src="images/mitAnimation/telophase.gif" id="mitTelo" class="mitImg col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 col-md-6 col-md-offset-3">
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-xs-6 col-xs-offset-3">
+                            <img src="images/arrow.png" id="arrow" class="col-xs-2 col-xs-offset-5 col-sm-2 col-sm-offset-5 col-md-2 col-md-offset-5">
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <img src="images/mitAnimation/cytokinesis.jpg" id="mitCyto" class="animg col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 col-md-6 col-md-offset-3">
+                    </div>
+                    
+                    <h4>Mitosis in a real cell:<br>(hover to view)</h4>
+                    
+                    <div class="row">
+                        <img src="images/mitAnimation/mitosisStill.png" id="mitReal" class="animg col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 col-md-6 col-md-offset-3">
+                    </div>
+                    
+                </div>
+            </div>
+            <div id="meiosis" class="col-md-6">
+                <div class="row">
+                    <h2>Meiosis</h2>
+                    <h4>The process of cell division in which the daughter cells produced are not identical to the parent cell.</h4>
+                </div>
+                <div class="row">
+                    <img src="images/meiosis.jpg" class="baseImg col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 col-md-6 col-md-offset-3">
+                </div>
+                <div class="row">
+                    <ul class="col-xs-6 col-xs-offset-4 col-sm-4 col-sm-offset-4 col-md-6 col-md-offset-4">
+                        <li>Number of daughter cells: 4</li>
+                        <li>Number of divisions: 2</li>
+                        <li>Haploid daughter cells</li>
+                        <li>Chromosome Number: 46 in parent, 23 in daughter (inconsistent)</li>
+                        <li>Used to produce gametes</li>
+                        <li>Type of cell produced: Germ cell</li>
+                        <li>Daughter Cells: Genetically Unidentical</li>
+                    </ul>
+                </div>
+                <table>
+                    <tr>
+                        <td>Advantages</td>
+                        <td>Disadvantages</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>Crossing over can prevent diseases from being passed down</li>
+                                <li>Can adapt to environment and evolve</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Requires two parents</li>
+                                <li>Only half of the population is capable of gestation</li>
+                                <li>Usually slower than mitosis</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+                <h3>Meiosis: Process</h3>
+                <div class="row">
+                    <img src="images/meiosisCycle.gif" class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 col-md-6 col-md-offset-3">
+                </div>
+                <h4>Meiosis consists of interphase as well as two cell divisions, meiosis I and meiosis II.</h4>
+                <ol>
+                    <li>
+                        Interphase:<br>This process is the same as interphase in mitosis; it consists of a G<sub>1</sub> phase, an S phase, and a G<sub>2</sub> phase during which the cell prepares for division and the DNA is duplicated.
+                    </li>
+                    <li>
+                        Meiosis I
+                        <ul>
+                            <li>Meiosis I is the first cell division of meiosis.</li>
+                            <li>It is very similar to the process of mitosis.</li>
+                            <li>
+                                Meiosis I consists of 5 phases:
+                                <ol>
+                                    <li>Prophase I:<br>DNA coils into chromosomes. Synapsis, the pairing of homologous chromosomes to form tetrads, occurs. Portions of chromatids may break off and attach to the adjacent chromosome of the tetrad in a process called crossing-over.The nuclear membrane and nucleolus disassemble. Spindle fibers appear.</li>
+                                    <li>Metaphase I:<br>The tetrads line up randomly at the midline of the dividing cell. Spindle fibers from each pole attach to the centromere of each homologue.</li>
+                                    <li>Anaphase I:<br>Each homologue moves to a different pole. This random separation of homologous chromosomes is called independent assortment.</li>
+                                    <li>Telophase I:<br>The chromosomes reach the poles, and cytokinesis begins. Spindle fibers disassemble. Note that the nucleolus and nuclear membrane sometimes, but not always, reform.</li>
+                                    <li>Cytokinesis I:<br>This process is similar to cytokinesis in mitosis; depending on the type of cell, either a cleavage furrow or cell plate is formed, and eventually the cell splits.</li>
+                                </ol>
+                            </li>
+                            <li>Meiosis I produces two new cells, each with a haploid number of chromosomes, however there are two copies (as chromatids) of each chromosome in the offspring.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Meiosis II
+                        <ul>
+                            <li>Meiosis II is the second cell division of meiosis.</li>
+                            <li>It occurs in each of the new cells created in meiosis I.</li>
+                            <li>Since there is already 2 copies of each chromosome in the new cells, there is no DNA replication beforehand.</li>
+                            <li>
+                                Meiosis II consists of 5 phases:
+                                <ol>
+                                    <li>Prophase II:<br>If the nucleolus and nuclear membrane reformed after meiosis I, they disassemble in this phase. Spindle fibers form and begin to move the chromosomes toward the center of the cell.</li>
+                                    <li>Metaphase II:<br>The chromosomes line up at the midline of each dividing cell, with each chromatid facing an opposite pole.</li>
+                                    <li>Anaphase II:<br>The chromatids separate and move toward the poles.</li>
+                                    <li>Telophase II:<br>The chromosomes reach the poles. Spindle fibers disassemble, and the nucleolus and nuclear membrane reform. DNA uncoils into chromatin.</li>
+                                    <li>Cytokinesis II:<br>This process is similar to cytokinesis in mitosis; depending on the type of cell, either a cleavage furrow or cell plate is formed, and eventually the cell splits.</li>
+                                </ol>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+                <h5>Devolopment of Gametes</h5>
+                <ul>
+                    <li>The only cells that reproduce through meiosis are those that produce gametes.</li>
+                    <li>Cells that produce gametes undergo meiosis in the reproductive organs.</li>
+                    <li>The formation of gametes differs slightly in human males and females.</li>
+                    <li>
+                        Production of Gametes:
+                        <ul>
+                            <li>
+                                Spermatogenesis:
+                                <ul>
+                                    <li>In human males, meiosis occurs in the testes to form gametes called sperm cells or <em>spermatozoa</em>.</li>
+                                    <li>A diploid reproductive cell divides meiotically. The four daughter cells are called spermatids.</li>
+                                    <li>Each spermatid develops into a mature spermatozoa.</li>
+                                </ul>
+                            </li>
+                            <li>
+                                Oogenesis:
+                                <ul>
+                                    <li>In human females, meiosis occurs in the ovaries to form gametes called egg cells, or <em>ova</em>.</li>
+                                    <li>A diploid reproductive cell divides meiotically.</li>
+                                    <li>In cytokinesis I and II of oogenesis, cytoplasm is divided unevenly between daughter cells.</li>
+                                    <li>The products of oogenesis are 1 ova (mature egg cell) and 3 polar bodies. Polar bodies receive very little cytoplasm and eventually degenerate.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div id="meiAnimation">
+                    
+                    <h4>Hover for Animation</h4>
+                    
+                    <h4>Meiosis I</h4>
+                    
+                    <div class="row">
+                        <img src="images/meiAnimation/pro/proStill1.png" id="meiProI" class="animg col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 col-md-6 col-md-offset-3">
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-xs-6 col-xs-offset-3">
+                            <img src="images/arrow.png" id="arrow" class="col-xs-2 col-xs-offset-5 col-sm-2 col-sm-offset-5 col-md-2 col-md-offset-5">
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <img src="images/meiAnimation/meta/metaStill1.png" id="meiMetaI" class="animg col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 col-md-6 col-md-offset-3">
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-xs-6 col-xs-offset-3">
+                            <img src="images/arrow.png" id="arrow" class="col-xs-2 col-xs-offset-5 col-sm-2 col-sm-offset-5 col-md-2 col-md-offset-5">
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <img src="images/meiAnimation/ana/anaStill1.png" id="meiAnaI" class="animg col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 col-md-6 col-md-offset-3">
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-xs-6 col-xs-offset-3">
+                            <img src="images/arrow.png" id="arrow" class="col-xs-2 col-xs-offset-5 col-sm-2 col-sm-offset-5 col-md-2 col-md-offset-5">
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <img src="images/meiAnimation/telo/teloStill1.png" id="meiTeloI" class="animg col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 col-md-6 col-md-offset-3">
+                    </div>
+                    
+                    <h4>Meiosis II</h4>
+                    
+                    <div class="row">
+                        <img src="images/meiAnimation/pro/proStill2.png" id="meiProII" class="animg col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 col-md-6 col-md-offset-3">
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-xs-6 col-xs-offset-3">
+                            <img src="images/arrow.png" id="arrow" class="col-xs-2 col-xs-offset-5 col-sm-2 col-sm-offset-5 col-md-2 col-md-offset-5">
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <img src="images/meiAnimation/meta/metaStill2.png" id="meiMetaII" class="animg col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 col-md-6 col-md-offset-3">
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-xs-6 col-xs-offset-3">
+                            <img src="images/arrow.png" id="arrow" class="col-xs-2 col-xs-offset-5 col-sm-2 col-sm-offset-5 col-md-2 col-md-offset-5">
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <img src="images/meiAnimation/ana/anaStill2.png" id="meiAnaII" class="animg col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 col-md-6 col-md-offset-3">
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-xs-6 col-xs-offset-3">
+                            <img src="images/arrow.png" id="arrow" class="col-xs-2 col-xs-offset-5 col-sm-2 col-sm-offset-5 col-md-2 col-md-offset-5">
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <img src="images/meiAnimation/telo/teloStill2.png" id="meiTeloII" class="animg col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 col-md-6 col-md-offset-3">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>

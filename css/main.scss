@@ -1,0 +1,70 @@
+$headerColor: #66e35f;
+$mitosisColor: #178A8A;
+$meiosisColor: #17A697;
+$textColor: #BFD4D9;
+$accentColor: #0D4D4D;
+
+body{
+    background-color: $headerColor;
+}
+
+#header {
+    background-color: $headerColor;
+}
+
+#mitosis{
+    background-color: $mitosisColor;
+    padding: 2em;
+}
+
+#meiosis{
+    background-color: $meiosisColor;
+    padding: 2em;
+}
+
+table {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    border: 1px solid black;
+    padding-right: 1em;
+}
+
+tr:nth-child(1){
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5 {
+    text-align: center;
+}
+
+.baseImg {
+    margin-bottom: 1em;
+}
+
+.click {
+    margin-bottom: 2em;
+}
+
+div > ol {
+    margin-bottom: 2em;
+}
+
+div > ul {
+    margin-bottom: 2em;
+}
+
+.animg {
+    margin-bottom: 1em;
+}
+
+#arrow {
+    margin-bottom: 1em;
+}
+
+.mitImg {
+    margin-bottom: 1em;
+}
